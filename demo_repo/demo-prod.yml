@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo-config
+  cloud:
+    config:
+      server:
+        git:
+          username: keynescao
+          password: caodan6510043
+          uri: https://github.com/keynescao/config/
+          search-paths: demo
+server:
+  port: 7001
