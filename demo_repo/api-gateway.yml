@@ -1,0 +1,9 @@
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: demo-hello
+    api-b:
+      path: /api-b/**
+      serviceId: demo-fconsumer
+  ignored-services: '*'
